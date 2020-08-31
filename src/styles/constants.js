@@ -1,0 +1,7 @@
+export const PRIMARY_BRAND_COLOR = '#F53B92';
+export const SECONDARY_BRAND_COLOR = '#32285C';
+export const ALTERNATIVE_BRAND_COLOR = '#50E673';
+export const NEUTRAL_BRAND_COLOR = '#C9C7C7';
+
+export const HEADER_CONTAINER_WIDTH = 1360;
+export const MAIN_CONTAINER_WIDTH = 960;

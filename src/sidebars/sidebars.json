@@ -1,0 +1,34 @@
+[
+  {
+    "entry": "Docs",
+    "name": "Docs",
+    "child_entries": [
+      "Get Started",
+      "Guide"
+    ]
+  },
+  {
+    "entry": "Get Started",
+    "name": "Get Started",
+    "items": [
+      "docs/get-started/introduction",
+      "docs/get-started/quick-start"
+    ]
+  },
+  {
+    "entry": "Guide",
+    "name": "Guide",
+    "items": [
+      "docs/guide/from-template-literals",
+      "docs/guide/hybrid-syntax",
+      "docs/guide/styling-a-component"
+    ]
+  },
+  {
+    "entry": "Blog",
+    "name": "Blog",
+    "items": [
+      "blog/welcome"
+    ]
+  }
+]
