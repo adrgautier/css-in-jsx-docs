@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: `/css-in-jsx-docs`,
   siteMetadata: {
     title: 'CSS-in-JSX',
   },
