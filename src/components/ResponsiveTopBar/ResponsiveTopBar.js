@@ -114,7 +114,7 @@ class ResponsiveTopBar extends Component {
           <Stylable.div>
             <style>
               position: fixed;
-              top: {menuOpen ? nMenuItem * 32 + 90 : 95};
+              top: {menuOpen ? nMenuItem * 32 + 90 : 95}px;
               left: 0;
               right: 0;
               bottom: 0;
