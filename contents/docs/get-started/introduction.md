@@ -5,6 +5,8 @@ showTitle: true
 ---
 CSS-in-JSX (stylized <>**CSS**</> or <>**CSS** in **JSX**</>) is yet another approach to style in React.
 
+![preview](../../images/preview.png)
+
 ## Disclaimer
 
 ⚠️ This is a proof of concept and should not be used on any production website. ⚠️

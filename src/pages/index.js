@@ -65,7 +65,7 @@ const IndexPage = () => {
           <style>
             margin-bottom: 10rem;
           </style>
-          Yet another to style in React
+          Yet another approach to style in React
         </Stylable.h2>
 
         <Link to="/docs/get-started/introduction">

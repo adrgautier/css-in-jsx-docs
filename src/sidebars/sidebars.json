@@ -21,7 +21,8 @@
     "items": [
       "docs/guide/from-template-literals",
       "docs/guide/hybrid-syntax",
-      "docs/guide/styling-a-component"
+      "docs/guide/styling-a-component",
+      "docs/guide/syntax-highlighting"
     ]
   },
   {
