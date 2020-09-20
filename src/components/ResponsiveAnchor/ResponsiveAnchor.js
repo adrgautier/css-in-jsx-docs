@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import TableOfContents from '../TableOfContents'
-import Stylable from 'css-in-jsx';
+import { Stylable } from 'css-in-jsx';
 
 class ResponsiveAnchor extends Component {
   render() {

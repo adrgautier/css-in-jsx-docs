@@ -10,7 +10,7 @@ import {
 import Menu from 'antd/lib/menu'
 import 'antd/lib/menu/style/css'
 import './SidebarContents.css'
-import Stylable from 'css-in-jsx'
+import { Stylable } from 'css-in-jsx'
 
 const SubMenu = Menu.SubMenu
 

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Stylable from "css-in-jsx"
+import { Stylable } from "css-in-jsx"
 import Menu from '../Menu'
 import HeaderTitle from '../HeaderTitle'
 import { getMenuState } from '../../store/selectors'

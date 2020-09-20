@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'gatsby'
-import Stylable from 'css-in-jsx';
+import { Stylable } from 'css-in-jsx';
 import { ALTERNATIVE_BRAND_COLOR } from '../../styles/constants';
 
 const StylableLink = Stylable(Link);

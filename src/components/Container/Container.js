@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import Stylable from 'css-in-jsx';
+import { Stylable } from 'css-in-jsx';
 import {
   getMenuState,
   isSidebarHide,

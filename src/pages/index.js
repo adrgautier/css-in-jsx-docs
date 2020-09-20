@@ -3,24 +3,28 @@ import Layout from '../components/Layout'
 import Button from 'antd/lib/button'
 import 'antd/lib/button/style/css'
 import { Link } from 'gatsby'
-import Stylable from 'css-in-jsx'
+import { Stylable, Styled } from 'css-in-jsx'
 import { PRIMARY_BRAND_COLOR, ALTERNATIVE_BRAND_COLOR } from '../styles/constants'
 
-const StylableButton = Stylable(Button);
+const StyledButton = Styled(Button)(<>
+  margin-right: 10px;
+</>);
+
+const Diamond = Styled.div(<>
+  display: block;
+  margin-top: 10rem;
+  color: black;
+  font-size: 8em;
+  &:hover <>
+    opacity: 0.5;
+  </>
+</>);
 
 const IndexPage = () => {
   return (
     <Layout>
       <div align="center">
-        <Stylable.span>
-            <style>
-              display: block;
-              margin-top: 10rem;
-              color: black;
-              font-size: 8em;
-            </style>
-            💎
-          </Stylable.span>
+        <Diamond>💎</Diamond>
         <Stylable.h1>
           <style>
             color: {PRIMARY_BRAND_COLOR};
@@ -69,14 +73,13 @@ const IndexPage = () => {
         </Stylable.h2>
 
         <Link to="/docs/get-started/introduction">
-          <StylableButton
+          <StyledButton
             type="primary"
             size="large"
             icon="right-circle"
           >
-            <style>margin-right: 10px;</style>
             Get Started
-          </StylableButton>
+          </StyledButton>
         </Link>
         <Button
           type="primary"

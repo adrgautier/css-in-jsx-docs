@@ -12,7 +12,7 @@ import {
 import { onSetAnchorOpen, onSetSidebarOpen } from '../../actions/layout'
 import SidebarContents from '../SidebarContents'
 import TableOfContents from '../TableOfContents'
-import Stylable from 'css-in-jsx'
+import { Stylable } from 'css-in-jsx'
 import { PRIMARY_BRAND_COLOR } from '../../styles/constants'
 
 class ResponsiveTopBar extends Component {

@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Card from 'antd/lib/card'
 import 'antd/lib/card/style/css'
-import Stylable from 'css-in-jsx'
+import { Stylable } from 'css-in-jsx'
 
 const StylableLink = Stylable(Link);
 

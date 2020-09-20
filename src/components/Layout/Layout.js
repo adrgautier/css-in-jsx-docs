@@ -14,7 +14,7 @@ import Row from 'antd/lib/row'
 import Col from 'antd/lib/col'
 import { connect } from 'react-redux'
 import { isSidebarHide, isAnchorHide } from '../../store/selectors'
-import Stylable from 'css-in-jsx'
+import { Stylable } from 'css-in-jsx'
 
 const StylableAntdLayoutHeader = Stylable(AntdLayout.Header);
 const StylableAntdLayoutContent = Stylable(AntdLayout.Content);

@@ -35,5 +35,5 @@ npm link css-in-jsx
 You should now be able to import the module in your project:
 
 ```js
-import Stylable from "css-in-jsx";
+import { Stylable, Styled } from "css-in-jsx";
 ```

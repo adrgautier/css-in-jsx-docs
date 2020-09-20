@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import SidebarContents from '../SidebarContents'
-import Stylable from 'css-in-jsx'
+import { Stylable } from 'css-in-jsx'
 
 class ResponsiveSidebar extends Component {
   render() {
